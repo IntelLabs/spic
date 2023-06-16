@@ -1,0 +1,222 @@
+S1 : 
+  '0' :
+    qp: 0.5
+    stride_val : 8
+    out_channel: 32
+    freq_file : 'freq_tab/supervised/S1/freq1.pickle' 
+    file_name : 'weights/supervised/S1/model1.pth.tar'
+
+  '1' :
+    qp: 1
+    stride_val : 8
+    out_channel: 16
+    freq_file : 'freq_tab/supervised/S1/freq2.pickle' 
+    file_name : 'weights/supervised/S1/model2.pth.tar'
+
+  '2' :
+    qp: 1
+    stride_val : 8
+    out_channel: 8
+    freq_file : 'freq_tab/supervised/S1/freq3.pickle' 
+    file_name : 'weights/supervised/S1/model3.pth.tar'
+
+  '3' :
+    qp: 1
+    stride_val : 8
+    out_channel: 4
+    freq_file : 'freq_tab/supervised/S1/freq4.pickle' 
+    file_name : 'weights/supervised/S1/model4.pth.tar'
+  
+  '4' :
+    qp: 3
+    stride_val : 8
+    out_channel: 2
+    freq_file : 'freq_tab/supervised/S1/freq5.pickle' 
+    file_name : 'weights/supervised/S1/model5.pth.tar'
+
+  '5' :
+    qp: 8
+    stride_val : 8
+    out_channel: 2
+    freq_file : 'freq_tab/supervised/S1/freq6.pickle' 
+    file_name : 'weights/supervised/S1/model6.pth.tar'
+
+S2 : 
+  '0' :
+    qp: 1
+    stride_val : 4
+    out_channel: 64
+    freq_file : 'freq_tab/supervised/S2/freq1.pickle' 
+    file_name : 'weights/supervised/S2/model1.pth.tar'
+
+  '1' :
+    qp: 1
+    stride_val : 4
+    out_channel: 32
+    freq_file : 'freq_tab/supervised/S2/freq2.pickle' 
+    file_name : 'weights/supervised/S2/model2.pth.tar'
+
+  '2' :
+    qp: 5
+    stride_val : 4
+    out_channel: 32
+    freq_file : 'freq_tab/supervised/S2/freq3.pickle' 
+    file_name : 'weights/supervised/S2/model3.pth.tar'
+
+  '3' :
+    qp: 2
+    stride_val : 6
+    out_channel: 32
+    freq_file : 'freq_tab/supervised/S2/freq4.pickle' 
+    file_name : 'weights/supervised/S2/model4.pth.tar'
+  
+  '4' :
+    qp: 7
+    stride_val : 6
+    out_channel: 32
+    freq_file : 'freq_tab/supervised/S2/freq5.pickle' 
+    file_name : 'weights/supervised/S2/model5.pth.tar'
+
+  '5' :
+    qp: 5
+    stride_val : 6
+    out_channel: 32
+    freq_file : 'freq_tab/supervised/S2/freq6.pickle' 
+    file_name : 'weights/supervised/S2/model6.pth.tar'
+
+S3 : 
+  '0' :
+    qp: 1
+    stride_val : 4
+    out_channel: 96
+    freq_file : 'freq_tab/supervised/S3/freq1.pickle' 
+    file_name : 'weights/supervised/S3/model1.pth.tar'
+
+  '1' :
+    qp: 1
+    stride_val : 4
+    out_channel: 64
+    freq_file : 'freq_tab/supervised/S3/freq2.pickle' 
+    file_name : 'weights/supervised/S3/model2.pth.tar'
+
+  '2' :
+    qp: 2
+    stride_val : 4
+    out_channel: 64
+    freq_file : 'freq_tab/supervised/S3/freq3.pickle' 
+    file_name : 'weights/supervised/S3/model3.pth.tar'
+
+  '3' :
+    qp: 1
+    stride_val : 4
+    out_channel: 48
+    freq_file : 'freq_tab/supervised/S3/freq4.pickle' 
+    file_name : 'weights/supervised/S3/model4.pth.tar'
+  
+  '4' :
+    qp: 4
+    stride_val : 4
+    out_channel: 32
+    freq_file : 'freq_tab/supervised/S3/freq5.pickle' 
+    file_name : 'weights/supervised/S3/model5.pth.tar'
+
+  '5' :
+    qp: 0.5
+    stride_val : 6
+    out_channel: 32
+    freq_file : 'freq_tab/supervised/S3/freq6.pickle' 
+    file_name : 'weights/supervised/S3/model6.pth.tar'
+
+  '6' :
+    qp: 1
+    stride_val : 6
+    out_channel: 32
+    freq_file : 'freq_tab/supervised/S3/freq7.pickle' 
+    file_name : 'weights/supervised/S3/model7.pth.tar'
+
+US1 : 
+  '0' :
+    qp: 1
+    stride_val : 6
+    out_channel: 24
+    freq_file : 'freq_tab/unsupervised/S1/freq1.pickle' 
+    file_name : 'weights/unsupervised/S1/model1.pth.tar'
+
+  '1' :
+    qp: 1
+    stride_val : 6
+    out_channel: 12
+    freq_file : 'freq_tab/unsupervised/S1/freq2.pickle' 
+    file_name : 'weights/unsupervised/S1/model2.pth.tar'
+
+  '2' :
+    qp: 1
+    stride_val : 8
+    out_channel: 16
+    freq_file : 'freq_tab/unsupervised/S1/freq3.pickle' 
+    file_name : 'weights/unsupervised/S1/model3.pth.tar'
+
+  '3' :
+    qp: 1
+    stride_val : 8
+    out_channel: 8
+    freq_file : 'freq_tab/unsupervised/S1/freq4.pickle' 
+    file_name : 'weights/unsupervised/S1/model4.pth.tar'
+  
+  '4' :
+    qp: 1
+    stride_val : 8
+    out_channel: 4
+    freq_file : 'freq_tab/unsupervised/S1/freq5.pickle' 
+    file_name : 'weights/unsupervised/S1/model5.pth.tar'
+
+US2 : 
+  '0' :
+    qp: 3.1
+    stride_val : 4
+    out_channel: 64
+    freq_file : 'freq_tab/unsupervised/S2/freq1.pickle' 
+    file_name : 'weights/unsupervised/S2/model1.pth.tar'
+
+  '1' :
+    qp: 3.5
+    stride_val : 4
+    out_channel: 64
+    freq_file : 'freq_tab/unsupervised/S2/freq2.pickle' 
+    file_name : 'weights/unsupervised/S2/model2.pth.tar'
+
+  '2' :
+    qp: 6.95
+    stride_val : 4
+    out_channel: 32
+    freq_file : 'freq_tab/unsupervised/S2/freq3.pickle' 
+    file_name : 'weights/unsupervised/S2/model3.pth.tar'
+
+  '3' :
+    qp: 1.5
+    stride_val : 6
+    out_channel: 32
+    freq_file : 'freq_tab/unsupervised/S2/freq4.pickle' 
+    file_name : 'weights/unsupervised/S2/model4.pth.tar'
+  
+  '4' :
+    qp: 2.4
+    stride_val : 6
+    out_channel: 32
+    freq_file : 'freq_tab/unsupervised/S2/freq5.pickle' 
+    file_name : 'weights/unsupervised/S2/model5.pth.tar'
+
+  '5' :
+    qp: 8
+    stride_val : 6
+    out_channel: 32
+    freq_file : 'freq_tab/unsupervised/S2/freq6.pickle' 
+    file_name : 'weights/unsupervised/S2/model6.pth.tar'
+
+  '6' :
+    qp: 8.5
+    stride_val : 6
+    out_channel: 32
+    freq_file : 'freq_tab/unsupervised/S2/freq7.pickle' 
+    file_name : 'weights/unsupervised/S2/model7.pth.tar'
+  
