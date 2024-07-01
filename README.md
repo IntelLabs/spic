@@ -1,3 +1,9 @@
+# DISCONTINUATION OF PROJECT #  
+This project will no longer be maintained by Intel.  
+Intel has ceased development and contributions including, but not limited to, maintenance, bug fixes, new releases, or updates, to this project.  
+Intel no longer accepts patches to this project.  
+ If you have an ongoing need to use this project, are interested in independently developing it, or would like to maintain patches for the open source software community, please create your own fork of this project.  
+  
 # Semantic Preserving Image Compression
 
 This repository serves as the companion to our CVPR 2023 paper titled "Neural Rate Estimator and Unsupervised Learning for Efficient Distributed Image Analytics in Split-DNN models". In this work, we present a method to train split-DNN models for distributed, rate-distrotion optimized visual-analytics. A deep neural network is partitioned into a client-side front-end and a server-side back-end. Intermediate representations from the front-end are compressed and transmitted to the back-end where. Specially trained low-complexity neural networks called 'bottleneck units' -- comprising an encoder at the front-end and a corresponding decoder at the back-end -- are inserted at the split point. These help transform the high-dimensional intermediate features into a low-dimensional representations. The bottleneck layers are trained to jointly optimize for compression and task performance.
